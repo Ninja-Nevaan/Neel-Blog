@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Neel Gupta</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#Travel">Places I Visited</a></li>
+        <li><a href="#TvShows">TV Shows</a></li>
+        <li><a href="#Books">Books</a></li>
+        <li><a href="#Map">Map</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="container">
+  <div class="page-header" id="me">
+    <h2 class="text-capitalize">Neel Gupta</h2>
+  </div>
+  <center>
+    <img src="Neel.jpg" alt="" class="img-responsive">
+      <h4 class="text-capitalize"><kbd>About Me</kbd></h4>
+      <hr>
+      <h5 class="text-success text-left text-capitalize">I was born on February 10, 2014</h5>
+    <p class="text-muted text-left">I have one brother, and two parents. I live somewhere around Toronto. My hobbies are reading, watching TV, making paper airplanes, and playing basketball.</p>
+    </div>
+
+<div class="container">
+  <div class="page-header" id="Travel">
+    <h2 class="text-capitalize">Places I Visited</h2>
+  </div>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="Megans Bay Beach.jpg" alt="" class="img-responsive">
+      <h4 class="text-capitalize"><kbd>Megans Bay Beach, St. Thomas</kbd></h4>
+      <hr>
+      <h5 class="text-success text-left text-capitalize">I vistited this place in the winter of 2022</h5>
+    <p class="text-muted text-left">Even though it was winter, it was so warm that I could wear my swimming suit and still be hot! In this picture, I was making a sand castle.</p>
+    </div>
+  </center>
+  <br><br>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="Niagra Falls.jpg" alt="" class="img-responsive">
+      <h4 class="text-capitalize"><kbd>Niagra Falls, Ontario</kbd></h4>
+      <hr>
+      <h5 class="text-success text-left text-capitalize">I visited this place in the summer of 2022.</h5>
+    <p class="text-muted text-left">I this picture, I am looking at the falls.</p>
+    </div>
+  </center>
+</div>
+    <div class="page-header" id="TvShows">
+      <h2 class="text-capitalize">Tv Shows</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Pokémon_Ultimate_Journeys">
+      <span class="glyphicon glyphicon-film"></span>Pokémon Ultimate Journeys <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="Pokémon_Ultimate_Journeys" class="collapse">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="Pokémon Ultimate Journeys.jpg" alt="" class="img-responsive img-thumbnail">
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">It is a great show!</h5>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <p>This Tv Show is the sequel to Pokémon Journeys and Pokémon Master Journeys. It has the same main characters.</p>
+      </div>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Pokémon_Master_Journeys">
+      <span class="glyphicon glyphicon-film"></span>Pokémon Master Journeys <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="Pokémon_Master_Journeys" class="collapse">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="Pokémon Master Journeys.jpg" alt="" class="img-responsive img-thumbnail">
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">It is a good show.</h5>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <p>This Tv Show is the sequel to Pokémon Journeys. It has the same main characters, including Chloe.</p>
+      </div>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Books">
+      <h2 class="text-capitalize">
+        Books
+      </h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 book" data-toggle="modal" data-target="#TheWitch">
+      <img src="The Witches.png" class="img-responsive">
+    <hr><p class="text-primary">The Witches</p>
+    </div>
+    <div class="modal fade" id="TheWitch">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">The Witches</h4>
+          </div>
+          <div class="modal-body">
+            <img src="The Witches.png" alt="" class="img-responsive img_modal">
+            <p class="p_modal">The Witches is a book about a boy who is turned into a mouse by Witches.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 book" data-toggle="modal" data-target="#DannyChampionWorld">
+      <img src="Danny.jpg" class="img-responsive">
+    <hr><p class="text-primary">Danny, the Champion of the World</p>
+    </div>
+    <div class="modal fade" id="DannyChampionWorld">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Danny, the Champion of the World</h4>
+          </div>
+          <div class="modal-body">
+            <img src="Danny.jpg" alt="" class="img-responsive img_modal">
+            <p class="p_modal">Danny, the Champion of the World is a book about a boy who finds a new way to poach pheasents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 book" data-toggle="modal" data-target="#BloodOlympus">
+      <img src="BloodOlympus.jpg" class="img-responsive">
+    <hr><p class="text-primary">The Blood Of Olympus</p>
+    </div>
+    <div class="modal fade" id="BloodOlympus">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">The Blood Of Olympus</h4>
+          </div>
+          <div class="modal-body">
+            <img src="BloodOlympus.jpg" alt="" class="img-responsive img_modal">
+            <p class="p_modal">The Blood Of Olympus is a book based on Greek and Roman mythology on a crew of half humans, half gods who are fighting giants and the earth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 book" data-toggle="modal" data-target="#TowerOfNero">
+      <img src="TowerNero.png" class="img-responsive">
+    <hr><p class="text-primary">The Tower Of Nero</p>
+    </div>
+    <div class="modal fade" id="TowerOfNero">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">The Tower Of Nero</h4>
+          </div>
+          <div class="modal-body">
+            <img src="TowerNero.png" alt="" class="img-responsive img_modal">
+            <p class="p_modal">The Tower Of Nero is a book about a god from Greek and Roman mythology who has been turned into a human, and has to fight his enemies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="Map">
+      <h2 class="text-capitalize">
+        Map
+      </h2>
+    </div>
+  <section id="myMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369106.72692787886!2d-79.65824962941994!3d43.71789898872632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1634396201946!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+
+</body>
+</html>
